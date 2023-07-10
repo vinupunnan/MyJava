@@ -1,0 +1,32 @@
+package com.examples.HackerRank;
+
+import java.util.*;
+import java.util.Scanner;
+
+// Write your code here. DO NOT use an access modifier in your class declaration.
+class Parser{
+    static String isBalanced(String str)
+    {
+        while (str.contains("()") || str.contains("[]") || str.contains("{}")) {
+            str = str.replaceAll("\\(\\)", "")
+                    .replaceAll("\\[\\]", "")
+                    .replaceAll("\\{\\}", "");
+        }
+        if(str.length() == 0){;
+        return str;
+
+    }
+return null;
+}
+
+class Solution {
+
+    public static void main(String[] args) {
+        Parser parser = new Parser();
+        Scanner in = new Scanner(System.in);
+        while (in.hasNext()) {
+            System.out.println(parser.isBalanced(in.next()));
+        }
+        in.close();
+    }
+}
