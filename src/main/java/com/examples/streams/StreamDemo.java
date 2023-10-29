@@ -3,11 +3,11 @@ package com.examples.streams;
 import com.examples.basic.Employee;
 
 import java.util.*;
+import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class StreamDemo {
     static List<Employee> employeeList = new ArrayList<Employee>();
-
     public static void main(String args[]) {
         employeeList.add(new Employee(111, "Jiya Brein", 32, "Female", "HR", 2011, 25.0));
         employeeList.add(new Employee(122, "Paul Niksui", 33, "Male", "Sales And Marketing", 2015, 13500.0));
@@ -25,29 +25,19 @@ public class StreamDemo {
         employeeList.add(new Employee(244, "Nicolus Den", 24, "Male", "Sales And Marketing", 2017, 10700.5));
         employeeList.add(new Employee(255, "Ali Baig", 23, "Male", "Infrastructure", 2018, 12700.0));
         employeeList.add(new Employee(266, "Sanvi Pandey", 26, "Female", "Product Development", 2015, 28900.0));
-        employeeList.add(new Employee(277, "Anuj Chettiar", 52, "Male", "Product Development", 2012, 35700.0));
-//        System.out.println("Print the name of alldepartments in the organization");
-//        employeeList.stream().map(Employee::getName).forEach(System.out::println);
-        // Query 15 : Who is the oldest employee in the organization? What is his age
-        // and which department he belongs to?
-        //Sorting based on ages using a sorting comparator
-//        Collections.sort(employeeList, new AgeComparator());
-//        Employee e = employeeList.get(employeeList.size() - 1);
-//        System.out.println("Using Normal" + e.getName());
-//        Optional<Employee> optEmp = employeeList.stream().max(Comparator.comparingInt(Employee::getAge));
-//        Employee emp = optEmp.get();
-//        System.out.println("Using Streams" + emp.getName());
-//        List<Employee> greaterAge = employeeList.stream().filter(s -> s.getAge() > 26).collect(Collectors.toList());
-//        System.out.println("greaterAge" + greaterAge.size());
-//        List<Employee> lesserAge = employeeList.stream().filter(s -> s.getAge() < 26).collect(Collectors.toList());
-//        System.out.println("lesserAge" + lesserAge.size());
-      List<Employee> empList=  employeeList.stream().
-              sorted(Comparator.comparingDouble(Employee::getSalary)).collect(Collectors.toList());
-      for(Employee emp: empList ){
-          System.out.println(emp.getName());
+       employeeList.add(new Employee(277, "Raj  Kulkkarni", 40, "Male", "Product Development", 2008, 45000.0));
+        employeeList.add(new Employee(277, "maumula  Santosh", 30, "Male", "Devops", 2008, 37000.0));
 
-        }
+       Long totalCount = employeeList.stream().count();
+        System.out.println(totalCount);
+      Long maleEmployees=   employeeList.stream().filter(t->t.getGender().equals("Male")).count();
+      System.out.println(maleEmployees);
+     Long femaleEmployees =   employeeList.stream().filter(t->t.getGender().equals("Female")).count();
+        System.out.println(femaleEmployees);
 
+      Map<String ,Long> employee =employeeList.stream().collect(Collectors.groupingBy(e->e.getGender(),Collectors.counting()));
+
+      System.out.println(employee.toString());
 }
 
     public static List<Employee> getEmployeeList() {
