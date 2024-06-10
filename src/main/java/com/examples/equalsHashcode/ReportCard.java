@@ -1,18 +1,11 @@
 package com.examples.equalsHashcode;
 
 public class ReportCard {
-    private double ratingScore;
+    private Double maths;
+    private Double science;
 
-    public ReportCard(){
-        this.ratingScore= Math.random()+1;
-
-    }
-
-    public double getRatingScore() {
-        return ratingScore;
-    }
-
-    public void setRatingScore(double ratingScore) {
-        this.ratingScore = ratingScore;
+    public ReportCard(Double maths, Double science) {
+        this.maths = maths;
+        this.science = science;
     }
 }

@@ -6,57 +6,38 @@ public class Student {
     private String rollNo;
     private String name;
 
+    private String  grade;
+
     public Student(){
         super();
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        Student student = (Student) o;
-        return rollNo.equals(student.rollNo);
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(rollNo);
-    }
-
-    public Student(String rollNo, String name) {
-        this.rollNo = rollNo;
-        this.name = name;
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "rollNo='" + rollNo + '\'' +
-                ", name='" + name + '\'' +
-                '}';
-    }
-
     public Student(String rollNo) {
         this.rollNo = rollNo;
-
+    }
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((rollNo == null) ? 0 : rollNo.hashCode());
+        return result;
     }
 
-    public String getRollNo() {
-        return rollNo;
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        Student other = (Student) obj;
+        if (rollNo == null) {
+            if (other.rollNo != null)
+                return false;
+        } else if (!rollNo.equals(other.rollNo))
+            return false;
+        return true;
     }
-
-    public void setRollNo(String rollNo) {
-        this.rollNo = rollNo;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-
 
 }

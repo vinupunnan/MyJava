@@ -3,14 +3,10 @@ package com.examples.threads.exams;
 public class MainExecuterClass {
     public static void main(String args[]){
 
-        Thread t = new Thread(new RunnavleThread());
-        t.start();
-        System.out.println("I am in main");
-        System.out.println("I am in main");
-        System.out.println("I am in main");System.out.println("I am in main");
-        System.out.println("I am in main");
-        System.out.println("I am in main");
+        Thread child = new Thread( new RunnableThread());
+        child.setPriority(Thread.MAX_PRIORITY);
 
-
+        child.start();
+        System.out.println("This is my main Thread");
     }
 }

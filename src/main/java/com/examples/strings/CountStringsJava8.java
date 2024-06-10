@@ -16,6 +16,7 @@ public class CountStringsJava8 {
        System.out.println(inputList.toString());
        System.out.println(inputList.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting())));
 
+        inputList.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 
     }
 }

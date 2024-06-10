@@ -7,8 +7,6 @@ import java.util.Map;
 public class CountStrings {
     public static void main(String args[]) {
         String inputString = "ilovejavatechie";
-        //{a=2, c=1, t=1, e=3, v=2, h=1, i=2, j=1, l=1, o=1}
-
         String[] c =   inputString.split("");
         System.out.println(Arrays.toString(c));
         Map<String,Integer > hm = new HashMap<String,Integer>() ;

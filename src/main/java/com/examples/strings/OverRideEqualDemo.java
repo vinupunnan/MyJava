@@ -1,6 +1,6 @@
 package com.examples.strings;
 
-import com.examples.basic.Employee;
+import com.examples.CollectionEx.utils.Employee;
 import com.examples.basic.SalarDet;
 
 import java.util.HashMap;
