@@ -1,4 +1,4 @@
-package com.examples.basic;
+package com.examples.streams;
 
 public class Employee {
     int id;
@@ -15,7 +15,8 @@ public class Employee {
 
     double salary;
 
-    public Employee(int id, String name, int age, String gender, String department, int yearOfJoining, double salary) {
+    String city;
+    public Employee(int id, String name, int age, String gender, String department, int yearOfJoining, double salary,String city) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -23,7 +24,9 @@ public class Employee {
         this.department = department;
         this.yearOfJoining = yearOfJoining;
         this.salary = salary;
+        this.city =city;
     }
+
 
     public Employee(int id) {
         this.id = id;
@@ -57,10 +60,48 @@ public class Employee {
         return salary;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+
+    public void setYearOfJoining(int yearOfJoining) {
+        this.yearOfJoining = yearOfJoining;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
     @Override
     public String toString() {
         return "Id : " + id + ", Name : " + name + ", age : " + age + ", Gender : " + gender + ", Department : "
-                + department + ", Year Of Joining : " + yearOfJoining + ", Salary : " + salary;
+                + department + ", Year Of Joining : " + yearOfJoining + ", Salary : " + salary +", City : " + city
+
+                ;
     }
 
     public boolean equals(Object o) {

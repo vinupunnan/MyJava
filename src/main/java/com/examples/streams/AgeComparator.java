@@ -1,7 +1,5 @@
 package com.examples.streams;
 
-import com.examples.basic.Employee;
-
 import java.util.Comparator;
 
 public class AgeComparator implements Comparator<Employee> {
