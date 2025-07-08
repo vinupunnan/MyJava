@@ -12,6 +12,10 @@ public class StreamDemo {
         List<Employee> employeeList = EmployDao.getEmployees();
 
         // Query 1 : How many male and female employees are there in the organization?
+      Map<String,Long> countMap =   employeeList.stream().collect(Collectors.groupingBy(e->e.getGender(),Collectors.counting()));
+        //employeeList.stream().forEach();
+List<Employee> empList = employeeList.stream().sorted(Comparator.comparing(e->e.getAge(),Comparator.reverseOrder())).collect(Collectors.toList());
+System.out.println("Gggggggggggggggg" +empList);
         Map<String, Long> test = employeeList.stream().collect(Collectors.groupingBy(a -> a.getGender(), Collectors.counting()));
         System.out.println(test);
         // Query 2 : Print the name of all departments in the organization?
@@ -33,6 +37,9 @@ public class StreamDemo {
 
         System.out.println(employeeList.stream().filter(e -> e.getYearOfJoining() > 2015).collect(Collectors.toList()));
 
-
+       List<Employee> newlist = employeeList.stream().filter(e -> e.getAge()>30 && e.getAge()<35).collect(Collectors.toList());
+       System.out.println(employeeList.size());
+        System.out.println(newlist.size());
+       System.out.println(newlist);
     }
 }

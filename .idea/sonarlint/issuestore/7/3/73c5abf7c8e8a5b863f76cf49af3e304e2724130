@@ -1,0 +1,11 @@
+
+h
+java:S3655"FCall "opt.isPresent()" or "!opt.isEmpty()" before accessing the value.(Þº§±ûÿÿÿÿ8Á˜ºê 2
+L
+java:S1197"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ8Ë˜ºê 2
+]	java:S125"<This block of commented-out lines of code should be removed.(œ´ò›øÿÿÿÿ8Ï˜ºê 2
+G	java:S106"+Replace this use of System.out by a logger.(¾ïúÀ8Ù˜ºê 2
+L	java:S106"+Replace this use of System.out by a logger.(‰íõ„øÿÿÿÿ8Û˜ºê 2
+U
+java:S1128
+"8Remove this unused import 'java.util.function.Function'.(»³Íž8Ý˜ºê 2

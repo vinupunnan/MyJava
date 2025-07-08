@@ -1,0 +1,29 @@
+
+a
+java:S1192"FDefine a constant instead of duplicating this literal "vinod" 3 times.(ŠÅê÷øÿÿÿÿ
+W
+java:S4973"<Strings and Boxed types should be compared using "equals()".(ß·üÖúÿÿÿÿ
+R
+java:S4973"<Strings and Boxed types should be compared using "equals()".(”ºæ¿
+Q
+java:S1854"6Remove this useless assignment to local variable "s5".(âÓ¼ıÿÿÿÿ
+L
+java:S1854"6Remove this useless assignment to local variable "s4".(—òù
+V	java:S125"<This block of commented-out lines of code should be removed.(©Î®úÿÿÿÿ
+6
+java:S2129" Remove this "String" constructor(–Â®ã
+V	java:S125"<This block of commented-out lines of code should be removed.(¿‹±òıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÅËİûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ÃÖÌŞ
+6
+java:S2129" Remove this "String" constructor(—òù
+=
+java:S1481"'Remove this unused "s4" local variable.(—òù
+;
+java:S2129" Remove this "String" constructor(âÓ¼ıÿÿÿÿ
+B
+java:S1481"'Remove this unused "s5" local variable.(âÓ¼ıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ß·üÖúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ì¡÷õ
+@	java:S106"+Replace this use of System.out by a logger.(”ºæ¿
+V	java:S125"<This block of commented-out lines of code should be removed.(™ÚÉÿÿÿÿÿ

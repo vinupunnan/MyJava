@@ -1,0 +1,16 @@
+
+E
+java:S1197	"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(ÀÒ­x
+?	java:S106"+Replace this use of System.out by a logger.(ş¸"
+E	java:S106"+Replace this use of System.out by a logger.(ò¿šéüÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(éÔÀÏûÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(ï»¢Ÿ
+@	java:S106"+Replace this use of System.out by a logger.(·Ÿ’í
+@	java:S106"+Replace this use of System.out by a logger.(ï»¢Ÿ
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8áéä£­1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8áéä£­1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8âéä£­1

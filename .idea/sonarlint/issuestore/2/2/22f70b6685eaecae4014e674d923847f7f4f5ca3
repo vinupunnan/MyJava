@@ -1,0 +1,13 @@
+
+L
+java:S1197"*Move the array designators [] to the type.(¡þÏÖøÿÿÿÿ8ÊÑñ‚Ô1
+G	java:S106"+Replace this use of System.out by a logger.(£Åé°8ÏÑñ‚Ô1
+G	java:S106"+Replace this use of System.out by a logger.(¤¡ƒ’8ÐÑñ‚Ô1
+L	java:S106"+Replace this use of System.out by a logger.(²ÅÊ£øÿÿÿÿ8ÔÑñ‚Ô1
+L	java:S106"+Replace this use of System.out by a logger.(þÓè†øÿÿÿÿ8ÕÑñ‚Ô1
+c
+java:S1128"ARemove this unused import 'java.awt.desktop.SystemEventListener'.(’ò°´üÿÿÿÿ8×Ññ‚Ô1
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8×Ññ‚Ô1
+T
+java:S1128"2Remove this unused import 'java.util.Collections'.(¢³ïÓþÿÿÿÿ8ØÑñ‚Ô1

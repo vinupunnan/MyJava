@@ -1,6 +1,10 @@
 package com.examples.defaultinter.basic;
 
 public class Inter implements Defaultexample {
+    @Override
+    public void saveAlerts(int a) {
+
+    }
 
 //   public void testMethod()
 //    {

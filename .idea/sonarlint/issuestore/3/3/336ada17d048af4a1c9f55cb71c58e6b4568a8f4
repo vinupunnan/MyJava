@@ -1,0 +1,11 @@
+
+J
+java:S1066q"/Merge this if statement with the enclosing one.(†Ðòëüÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(È­éžüÿÿÿÿ
+M
+java:S2589o"7Remove this expression which always evaluates to "true"(ÙžƒÌ
+[	java:S107"AConstructor has 8 parameters, which is greater than 7 authorized.(µõ¿™øÿÿÿÿ
+`
+java:S6201o"JReplace this instanceof check and cast with 'instanceof Employee employee'(ÙžƒÌ
+_
+java:S4201o"IRemove this unnecessary null check; "instanceof" returns false for nulls.(ÙžƒÌ

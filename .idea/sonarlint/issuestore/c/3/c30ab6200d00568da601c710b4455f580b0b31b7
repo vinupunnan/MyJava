@@ -1,0 +1,8 @@
+
+Q
+java:S1854"6Remove this useless assignment to local variable "t0".(°”§¯øÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(‘–µ¥
+B
+java:S1481"'Remove this unused "t0" local variable.(°”§¯øÿÿÿÿ
+@	java:S106""+Replace this use of System.out by a logger.(®–Ä“

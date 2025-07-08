@@ -1,9 +1,19 @@
 package com.examples.defaultinter.basic;
 
-public class InterOverride implements Defaultexample{
+public class InterOverride implements Defaultexample,DefaultTwo{
 
-   public  void testMethod(){
+    @Override
+    public void saveAlerts(int a) {
 
-        System.out.println("I m in the overridden  method of the inter face");
     }
+
+    @Override
+    public void testMethod() {
+        DefaultTwo.super.testMethod();
+    }
+
+    public void  test1(){
+        DefaultTwo.staticMethod();
+    }
+
 }

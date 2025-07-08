@@ -1,0 +1,12 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(º ˆçÿÿÿÿÿ8…ÞâÉÁ1
+X	java:S125"<This block of commented-out lines of code should be removed.(Ý ’ì8º—ëòž2
+]	java:S125"<This block of commented-out lines of code should be removed.(–úâüÿÿÿÿÿ8»—ëòž2
+K
+java:S1128".Remove this unused import 'java.util.Objects'.(¼¸õ›8–ÞâÉÁ1
+L
+java:S1068"*Remove this unused "rollNo" private field.(óšŒšùÿÿÿÿ8—ÞâÉÁ1
+E
+java:S1068"(Remove this unused "name" private field.(Ë¥¼8˜ÞâÉÁ1
+K
+java:S1068	")Remove this unused "grade" private field.(æÊôˆúÿÿÿÿ8™ÞâÉÁ1

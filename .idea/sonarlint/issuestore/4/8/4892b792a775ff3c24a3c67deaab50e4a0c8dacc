@@ -1,0 +1,15 @@
+
+J
+java:S3740#"/Provide the parametrized type for this generic.(åµ›áýÿÿÿÿ
+^
+java:S2166	"CRename this class to remove "Exception" or correct its inheritance.(ìöšœùÿÿÿÿ
+V	java:S125
+"<This block of commented-out lines of code should be removed.(êÅ¥ýÿÿÿÿ
+t
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(ä ¹€
+E	java:S106"+Replace this use of System.out by a logger.(…œèýÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ùï¾Žÿÿÿÿÿ
+?	java:S106"+Replace this use of System.out by a logger.(¯Ã“
+Q	java:S125%"<This block of commented-out lines of code should be removed.(¦ú‘Ú
+E	java:S106,"+Replace this use of System.out by a logger.(·Æëúÿÿÿÿ

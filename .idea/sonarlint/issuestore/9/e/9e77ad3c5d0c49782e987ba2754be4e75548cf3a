@@ -1,0 +1,10 @@
+
+7
+java:S1643"Use a StringBuilder instead.(å†¸‘ùÿÿÿÿ
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ùï¾Žÿÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ùï¾Žÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(±‡âÈüÿÿÿÿ
+\
+java:S1128"ARemove this unused import 'org.apache.commons.lang3.StringUtils'.(Øœ¼ºúÿÿÿÿ

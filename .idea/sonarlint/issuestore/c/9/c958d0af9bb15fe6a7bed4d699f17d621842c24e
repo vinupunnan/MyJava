@@ -1,0 +1,9 @@
+
+L
+java:S1197	"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8“ËÏ®Ÿ2
+L	java:S106"+Replace this use of System.out by a logger.(ì‘»ğûÿÿÿÿ8Õö—¯Ÿ2
+{
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(¶äçıÿÿÿÿ8•ËÏ®Ÿ2
+G	java:S106"+Replace this use of System.out by a logger.(æš¬ç8À„›¯Ÿ2
+J
+java:S1128".Remove this unused import 'java.util.HashSet'.(Ê‚êX8Á„›¯Ÿ2

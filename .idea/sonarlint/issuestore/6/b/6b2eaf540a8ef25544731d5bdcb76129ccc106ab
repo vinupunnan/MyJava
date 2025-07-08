@@ -1,0 +1,8 @@
+
+[
+java:S1854"9Remove this useless assignment to local variable "count".(åÕä¨ÿÿÿÿÿ8Ï¶Ó1
+L
+java:S1197"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ8Ï¶Ó1
+\
+java:S2123":Remove this increment or correct the code not to waste it.(åÕä¨ÿÿÿÿÿ8Ñ¶Ó1
+G	java:S106"+Replace this use of System.out by a logger.(ˆªİë8†”¶Ó1

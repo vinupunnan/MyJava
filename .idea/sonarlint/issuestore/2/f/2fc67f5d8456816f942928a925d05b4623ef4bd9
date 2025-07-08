@@ -1,0 +1,8 @@
+
+‡
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ùï¾ÿÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ùï¾ÿÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.( –ûÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÀÆĞöúÿÿÿÿ
+@	java:S106"+Replace this use of System.out by a logger.(øêĞ

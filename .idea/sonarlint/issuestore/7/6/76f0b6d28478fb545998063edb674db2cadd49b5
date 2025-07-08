@@ -1,0 +1,6 @@
+
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ã­¼úÿÿÿÿ8¿ş„®Ÿ2
+M
+java:S1172"+Remove this unused method parameter "args".(×­Éêşÿÿÿÿ8Âş„®Ÿ2
+G	java:S106	"+Replace this use of System.out by a logger.(õû¡ú8Çş„®Ÿ2

@@ -1,0 +1,12 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(ŞÙãŒıÿÿÿÿ
+E
+java:S1197
+"*Move the array designators [] to the type.(¡şÏÖøÿÿÿÿ
+X
+java:S1612"=Replace this lambda with method reference 'Object::toString'.(ŞÙãŒıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(ÊÕƒšøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ä”Ö­
+m
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ÊÕƒšøÿÿÿÿ

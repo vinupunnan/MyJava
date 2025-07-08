@@ -1,0 +1,27 @@
+
+J
+java:S3740#"/Provide the parametrized type for this generic.(¶ΰ»‹ωÿÿÿÿ
+E
+java:S3740$"/Provide the parametrized type for this generic.(―½„
+E
+java:S3740$"/Provide the parametrized type for this generic.(―½„
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ξέ—δώÿÿÿÿ
+j
+java:S1192"TDefine a constant instead of duplicating this literal "Sales And Marketing" 3 times.(¶³Ϋ›
+o
+java:S1192"TDefine a constant instead of duplicating this literal "Product Development" 5 times.(ω¥°‡ψÿÿÿÿ
+e
+java:S1192"ODefine a constant instead of duplicating this literal "Infrastructure" 3 times.(ίÒΟι
+b
+java:S1192"GDefine a constant instead of duplicating this literal "Female" 6 times.(π“µΤϋÿÿÿÿ
+
+java:S1319#"sThe return type of this method should be an interface such as "Map" rather than the implementation "LinkedHashMap".(¶ΰ»‹ωÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Θ­ιόÿÿÿÿ
+U
+java:S1118
+":Add a private constructor to hide the implicit public one.(„ψΖμόÿÿÿÿ
+7
+java:S1116"Remove this empty statement.(ω¥°‡ψÿÿÿÿ
+j
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(ε’Θΰ
